@@ -48,4 +48,5 @@ Para ejecutar el programa, simplemente haz doble clic en `app_fotos.exe` dentro 
 
 ---
 
-¡Gracias por usar nuestro programa de Marca de Agua Automática!
+¡Gracias por usar este programa de marca de agua automática!
+Si tienes alguna sugerencia, no dudes en compartirla.
