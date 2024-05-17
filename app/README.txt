@@ -1,11 +1,34 @@
-Al ejecutar por primera vez, te creará si no tienes creada la carpeta chinos en el escritorio y dentro otras dos carpetas que se llaman fotos_sin y fotos_con.
+Marca de Agua Automática
+Este programa permite aplicar una marca de agua a fotos de manera automática. Al ejecutarlo, creará una estructura de carpetas específica en tu escritorio y procesará las fotos según el nombre de las carpetas que determines.
 
-¿Cómo funciona?
-Dentro de fotos_sin creas tantas carpetas como quieras con el nombre del proveedor que quieres que salga de marca de agua. El nombre de la carpeta es la marca de agua que tendrán esas fotos.
-Te descargas las fotos de whatsapp en la carpeta correspondiente.
-Una vez tienes todas las fotos descargadas le das a ejecutar a la aplicación.
+Estructura de Carpetas
+Al ejecutar el programa por primera vez, se crearán las siguientes carpetas en tu escritorio:
 
-La aplicación irá carpeta por carpeta y le pondrá a cada foto la marca de agua, y las pondrá en la carpeta fotos_con.
-Una vez termine, eliminará todas las carpetas de fotos_sin.
+fotos_sin: Aquí debes crear subcarpetas con el nombre del proveedor que quieres que aparezca como marca de agua en las fotos.
+fotos_con: Aquí se guardarán las fotos con la marca de agua aplicada.
+Instrucciones de Uso
+Preparar las Fotos: Dentro de la carpeta fotos_sin, crea subcarpetas con el nombre que quieres usar como marca de agua para cada conjunto de fotos. Por ejemplo:
+Descarga las fotos de WhatsApp o de cualquier otra fuente y colócalas en la subcarpeta correspondiente.
 
+Ejecutar el Programa: Dentro de la carpeta app, encontrarás un ejecutable llamado app_fotos.exe. Ejecútalo en Windows. El programa procesará todas las subcarpetas dentro de fotos_sin, aplicará la marca de agua correspondiente y guardará las fotos resultantes en la carpeta fotos_con.
+
+Resultado: Una vez que el programa termine de ejecutar:
+
+Las fotos con la marca de agua aplicada estarán en fotos_con.
+Todas las carpetas y fotos dentro de fotos_sin serán eliminadas.
+Detalles Técnicos
+Requisitos
+Sistema operativo: Windows
+Librerías: PIL (Python Imaging Library)
+Funcionamiento Interno
+Creación de Carpetas: Si no existen, el programa creará las carpetas MARCA_DE_AGUA, fotos_sin, y fotos_con en el escritorio.
+Procesamiento de Fotos: El programa recorrerá cada subcarpeta dentro de fotos_sin, aplicará la marca de agua usando el nombre de la subcarpeta, y guardará las fotos resultantes en fotos_con.
+Limpieza: Al finalizar el procesamiento, el programa eliminará todas las carpetas y fotos dentro de fotos_sin.
+Ejecución
+Para ejecutar el programa, simplemente haz doble clic en app_fotos.exe dentro de la carpeta app.
+
+Notas Adicionales
+Si el programa no encuentra la fuente arial.ttf, utilizará una fuente predeterminada.
+Asegúrate de que las fotos estén en formatos compatibles: .png, .jpg, .jpeg, .bmp.
+¡Gracias por usar este programa de marca de agua automática! Si tienes alguna sugerencia, no dudes en compartirla.
 
